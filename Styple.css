@@ -1,0 +1,51 @@
+
+
+.items{
+    position: absolute;
+    top: 100%;
+    left: 22%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 100px;
+    align-items: center;
+   
+    
+}
+
+.item button{
+    border-radius: 15%;
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+    border: none;
+    top: 150px;
+}
+
+body{
+    background: rgb(49, 49, 49);
+}
+
+.title-text{
+    color: white;
+ }
+ 
+ .title{
+     align-items: center;
+ }
+
+
+.hot-item{
+    align-items: center;
+}
+
+ .hot-item button{
+    border-radius: 15%;
+    width: 700px;
+    height: 700px;
+    cursor: pointer;
+    border: none;
+    top: 25%;
+    left: 35%;
+    position: absolute;
+}
